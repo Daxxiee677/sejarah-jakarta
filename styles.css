@@ -71,7 +71,7 @@ body.dark-mode .toggle-circle {
 
 .menu-icon div {
     width: 50px;
-    height: 5px;
+    height: 2px;
     background-color: black;
     margin: 10px 0;
 }
@@ -141,7 +141,8 @@ section h2 {
 footer {
     text-align: center;
     padding: 10px;
-    background: #f4f4f4;
+   background: #000000;
+    color: #ffffff;
 }
 
 body.dark-mode {
