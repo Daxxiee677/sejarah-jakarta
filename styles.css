@@ -69,11 +69,18 @@ body.dark-mode .toggle-circle {
 
 }
 
+/* Default light mode styles */
 .menu-icon div {
-    width: 50px;
-    height: 2px;
+    width: 25px;
+    height: 3px;
     background-color: black;
-    margin: 10px 0;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+}
+
+/* Dark mode styles */
+.dark-mode .menu-icon div {
+    background-color: white;
 }
 
 .sidebar {
